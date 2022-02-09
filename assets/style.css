@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine;
+  background-color: black;
 }
 
 header {
@@ -39,9 +39,34 @@ header nav ul li a:hover {
 }
 
 .hero {
+  position: relative;
+  width: 100%;
+  display:flex;
+}
+
+.hero::after {
+  content: "";
   background-image: url("../assets/images/fireworks.jpg");
   background-size: cover;
   background-position: 90%;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  display:flex;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.bio {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0 0 30%;
+  font-size: 4.2vw;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  color: red;
 }
 
 .hero-img {
@@ -49,15 +74,22 @@ header nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 0 0 40%;
 }
 
 .hero-img img{
-  width: 30%;
-  height: 40%;
+  width: 70%;
+  height: 85%;
+  border-radius: 10%;
 }
 
-.bio {
-  background-color: #fff;
+.hero-text {
+  display: flex;
+  flex: 0 0 30%;
+  font-size: 2.55vw;
+  font-weight: bold;
+  color: red;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
 }
 
 .aboutme {
@@ -69,6 +101,8 @@ header nav ul li a:hover {
   display: flex;
   width: 60%;
   align-items: center;
+  font-size: 1.55vw;
+  color:#fff;
 }
 
 .work {
@@ -130,7 +164,7 @@ header nav ul li a:hover {
 .section-header {
   border-right: 3px solid red;
   padding: 20px;
-  font-size: 35px;
+  font-size: 2.35vw;
   color: red;
   display: flex;
   flex-direction:row;
