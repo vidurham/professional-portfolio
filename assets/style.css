@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 35px;
-  background-color: #13293d;
+  background-color: black;
   color: #fff;
 }
 
@@ -17,6 +17,9 @@ header h1 {
   color: #fff;
   margin: 0;
   text-shadow: 0 0 10px rgba(0,0,0,0.5);;
+  border: solid 3px red;
+  background-color: red;
+  padding: 10px;
 }
 
 header nav ul {
@@ -32,6 +35,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: red
 }
 
 header nav ul li a:hover {
