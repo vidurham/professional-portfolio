@@ -27,31 +27,37 @@
               
                 <div id="navbarBasicExample" class="navbar-menu">
                   <div class="navbar-start">
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#about-me">
                       About Me
                     </a>
                             
                     <div class="navbar-item has-dropdown is-hoverable">
-                      <a class="navbar-link">
+                      <a class="navbar-link" href="#my-work">
                         My Projects
                       </a>
               
                       <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                          About
+                        <a class="navbar-item" href="#good-morning">
+                            Good Morning
                         </a>
-                        <a class="navbar-item">
-                          Jobs
+                        <a class="navbar-item" href="#password-gen">
+                            Password Generator
                         </a>
-                        <a class="navbar-item">
-                          Contact
+                        <a class="navbar-item" href="#weather-dashboard">
+                            Weather Dashboard
+                        </a>
+                        <a class="navbar-item" href="#workday-scheduler">
+                            Workday Scheduler
+                        </a>
+                        <a class="navbar-item" href="#run-buddy">
+                            Run Buddy
                         </a>
                         <hr class="navbar-divider">
-                        <a class="navbar-item">
-                          Report an issue
+                        <a class="navbar-item" href="https://github.com/vidurham">
+                          GitHub Profile (All Projects)
                         </a>
                       </div>
-                      <a class="navbar-item">
+                      <a class="navbar-item" href="#contact-me">
                         Contact
                       </a>
                     </div>
@@ -69,16 +75,16 @@
             
         </header>
 
-        <section class="hero is-link is-fullheight-with-navbar">
-            <div class="hero-body columns">
+        <section class="hero is-link is-fullheight-with-navbar big-image">
+            <div class="hero-body columns overlay">
                 <div class="column is-one-third">
-                    <h3 class="is-size-3">Hello World!</h3>
+                    <h3 class="is-size-3 yell">"Believe in yourself and there will come a day when others will have no choice but to believe with you"</h3>
                 </div>
                 <div class="column is-one-third">
-                    <p class="title is-size-1">
+                    <p class="title is-size-1 sect-title">
                         Vincent Durham
                     </p>
-                    <img src="./assets/images/vinny.jpg" alt="Picture of Vincent Durham"></img>
+                    <img src="./assets/images/vinny.jpg" alt="Picture of Vincent Durham">
                 </div>
                 <div class="column is-one-third"> 
                     <h3 class="is-size-3">"The Lion and the Bear may be more powerful, but the Wolf does not perform in the circus."</h3>
@@ -91,7 +97,7 @@
 
         <section id="about-me" class="columns">
             <div class="column is-half">
-                <h2 class="is-size-1">
+                <h2 class="is-size-1 sect-title">
                     About Me
                 </h2>
             </div>
@@ -106,12 +112,12 @@
         <!-- My Work Section Start-->
         <section id="my-work" class="columns">
             <div class="column is-half">
-                <h2 class="is-size-1">
+                <h2 class="is-size-1 sect-title">
                     My Projects
                 </h2>
             </div>
             <div class="projects column">
-                <div class="card column is-full">
+                <div class="card column is-full" id="good-morning">
                     <div class="card-image">
                         <figure class="image is-4by3">
                             <img src="./assets/images/good-morning.JPG" alt="Placeholder image">
@@ -127,10 +133,10 @@
                   
                         <div class="content">
                             <div>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus nec iaculis mauris.
+                                A fun interactive morning app that asks a user for their zodiac sign and location and gives them a morning outlook for the day with links to daily quizzes.
+                                The app utilizes a horoscope API, the Spotify API, and the Open Weather API
                             </div>
-                            <div class="buttons">
+                            <div class="c-buttons">
                                 <a href="https://vidurham.github.io/good-morning/" class="button is-primary">Visit Webpage</a>
                                 <a href="https://github.com/vidurham/good-morning" class="button is-info">Visit GitHub Repository</a>
                             </div>
@@ -138,7 +144,7 @@
                     </div>
                 </div>
                 <div class="columns">
-                    <div class="card column is-half">
+                    <div class="card column is-half" id="password-gen">
                         <div class="card-image">
                             <figure class="image is-4by3">
                                 <img src="./assets/images/passwordgen.JPG" alt="Placeholder image">
@@ -154,17 +160,17 @@
                     
                             <div class="content">
                                 <div>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.
+                                    A website that will generate a password based on user input using javascript techniques. 
+                                    A user is given basic prompts to answer and a password is generated depending on their answers.
                                 </div>
-                                <div class="buttons">
+                                <div class="c-buttons">
                                     <a href="https://vidurham.github.io/password-generator/" class="button is-primary">Visit Webpage</a>
                                     <a href="https://github.com/vidurham/password-generator" class="button is-info">Visit GitHub Repository</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card column is-half">
+                    <div class="card column is-half" id="weather-dashboard">
                         <div class="card-image">
                             <figure class="image is-4by3">
                                 <img src="./assets/images/weather.JPG" alt="Placeholder image">
@@ -180,10 +186,10 @@
                   
                             <div class="content">
                                 <div>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.
+                                    An application that allows you to search for a city and then be returned with the current weather for that city and a 5-day future forecast for that city. 
+                                    Also, using localStorage, the app saves any search city and it can be clicked to return to its weather and future forecast.
                                 </div>
-                                <div class="buttons">
+                                <div class="c-buttons">
                                     <a href="https://vidurham.github.io/weather-dashboard/" class="button is-primary">Visit Webpage</a>
                                     <a href="https://github.com/vidurham/weather-dashboard" class="button is-info">Visit GitHub Repository</a>
                                 </div>
@@ -192,7 +198,7 @@
                     </div>
                 </div>
                 <div class="columns">
-                    <div class="card column is-half">
+                    <div class="card column is-half" id="workday-scheduler">
                         <div class="card-image">
                             <figure class="image is-4by3">
                                 <img src="./assets/images/scheduler.JPG" alt="Placeholder image">
@@ -208,17 +214,17 @@
                     
                             <div class="content">
                                 <div>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.
+                                    An interactive app that allows you to schedule your workday. The app uses Moment.js to give real time to your workday planner, changing colors of your planning blocks throughout the day.
+                                    It also uses jQuery to save what you have planned at the click of a button. It does this through using LocalStorage on the computer.
                                 </div>
-                                <div class="buttons">
+                                <div class="c-buttons">
                                     <a href="https://vidurham.github.io/workday-scheduler/" class="button is-primary">Visit Webpage</a>
                                     <a href="https://github.com/vidurham/workday-scheduler" class="button is-info">Visit GitHub Repository</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card column is-half">
+                    <div class="card column is-half" id="run-buddy" >
                         <div class="card-image">
                             <figure class="image is-4by3">
                                 <img src="./assets/images/runbud.JPG" alt="Placeholder image">
@@ -234,10 +240,10 @@
                     
                             <div class="content">
                                 <div>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.
+                                    A website that offers fitness training services.
+                                    Built with basic HTML and CSS properties.
                                 </div>
-                                <div class="buttons">
+                                <div class="c-buttons">
                                     <a href="https://vidurham.github.io/run-buddy/" class="button is-primary">Visit Webpage</a>
                                     <a href="https://github.com/vidurham/run-buddy" class="button is-info">Visit GitHub Repository</a>
                                 </div>
@@ -249,17 +255,17 @@
         </section>
         <!-- Contact Me Section-->
         <section id="contact-me" class="columns">
-            <div class="column">
-                <h2 class="is-size-1">
+            <div class="column is-one-fifth">
+                <h2 class="is-size-1 mx-5">
                     Contact Me
                 </h2>
             </div>
             <div class= "column">
-                <a href="#">513-285-2159</a>
-                <a href="#">vdurham@luciddronetech.com</a>
-                <a href="https://github.com/vidurham">Github</a>
-                <a href="https://twitter.com/bulldurham_44">Twitter</a>
-                <a href="#">Spotify</a> 
+                <a class="is-size-2 mx-2" href="tel:513-285-2159">| 513-285-2159 |</a>
+                <a class="is-size-2 mx-2" href="mailto:vdurham@luciddronetech.com">| vdurham@luciddronetech.com |</a>
+                <a class="is-size-2 mx-2" href="https://github.com/vidurham">| Github |</a>
+                <a class="is-size-2 mx-2" href="https://twitter.com/bulldurham_44">| Twitter |</a>
+                <a class="is-size-2 mx-2" href="https://open.spotify.com/user/vidurham">| Spotify |</a> 
             </div>
         </section>
     </body>
