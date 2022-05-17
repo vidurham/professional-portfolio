@@ -1,6 +1,21 @@
 .sect-title {
   display: flex;
   justify-content: center;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: xx-large;
+  text-decoration: underline;
+  color: white;
+}
+
+.font1 {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: xx-large;
+  color: white;
+}
+
+.font2{
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-size: large;
 }
 
 .big-image {
@@ -32,6 +47,11 @@
 }
 
 .c-buttons {
-  display: flex;
-  justify-content: space-evenly;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.card-image {
+  border: 2px black solid;
+  border-radius: 10px;
 }
