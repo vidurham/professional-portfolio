@@ -7,10 +7,15 @@
   color: white;
 }
 
-.font1 {
+.font1-white {
   font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   font-size: xx-large;
   color: white;
+}
+
+.font1 {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: xx-large;
 }
 
 .font2{
@@ -54,4 +59,11 @@
 .card-image {
   border: 2px black solid;
   border-radius: 10px;
+}
+
+.card:hover {
+    color: limegreen;
+    background: white;
+    box-shadow: 0px 0px 10px 2px limegreen;
+    border: 2px solid limegreen;
 }
